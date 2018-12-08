@@ -8,20 +8,29 @@ import HeaderLink from './HeaderLink';
 import Banner from './banner.jpg';
 import messages from './messages';
 
+
 /* eslint-disable react/prefer-stateless-function */
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <A href="https://twitter.com/mxstbr">
-          <Img src={Banner} alt="react-boilerplate - Logo" />
-        </A>
-        <NavBar>
+      <div className="topHeader bgImage">
+        <div class="logo">
+          <a href="#">NXD2</a>
+        </div>
+        <NavBar class="leftMenu">
           <HeaderLink to="/">
             <FormattedMessage {...messages.home} />
           </HeaderLink>
           <HeaderLink to="/features">
             <FormattedMessage {...messages.features} />
+          </HeaderLink>
+        </NavBar>
+        <NavBar class="Menuright">
+          <HeaderLink to="/signup">
+            <FormattedMessage {...messages.signup} />
+          </HeaderLink>
+          <HeaderLink to="/login">
+            <FormattedMessage {...messages.login} />
           </HeaderLink>
         </NavBar>
       </div>
