@@ -12,19 +12,23 @@ export default defineMessages({
     id: `${scope}.home`,
     defaultMessage: 'Home',
   },
+  about: {
+    id: `${scope}.about`,
+    defaultMessage: 'About Us',
+  },
   features: {
     id: `${scope}.features`,
-    defaultMessage: 'features',
+    defaultMessage: 'Features',
   },
-    contactus: {
+  contactus: {
     id: `${scope}.contactus`,
-    defaultMessage: 'contactus',
+    defaultMessage: 'Contact Us',
   },
   signup: {
     id: `${scope}.signup`,
-    defaultMessage: 'Sign up',
+    defaultMessage: 'Sign-up',
   },
-   login: {
+  login: {
     id: `${scope}.login`,
     defaultMessage: 'Login',
   },
