@@ -10,49 +10,41 @@ export const scope = 'boilerplate.containers.FeaturePage';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'Features',
+    defaultMessage: 'Features of NXD2',
   },
   scaffoldingHeader: {
     id: `${scope}.scaffolding.header`,
-    defaultMessage: 'Quick scaffolding',
+    defaultMessage: 'Simple User Interface:',
   },
   scaffoldingMessage: {
     id: `${scope}.scaffolding.message`,
-    defaultMessage: `Automate the creation of components, containers, routes, selectors
-  and sagas - and their tests - right from the CLI!`,
+    defaultMessage: `Users can use the responsive UI to deliver their content anywhere through cloud!`,
   },
   feedbackHeader: {
     id: `${scope}.feedback.header`,
-    defaultMessage: 'Instant feedback',
+    defaultMessage: 'Pre-Scheduling Advertisments:',
   },
   feedbackMessage: {
     id: `${scope}.feedback.message`,
-    defaultMessage: `
-      Enjoy the best DX and code your app at the speed of thought! Your
-    saved changes to the CSS and JS are reflected instantaneously
-    without refreshing the page. Preserve application state even when
-    you update something in the underlying code!
+    defaultMessage: `Users can schedule their advertisements well before by using the buffer space provided!
     `,
   },
   stateManagementHeader: {
     id: `${scope}.state_management.header`,
-    defaultMessage: 'Predictable state management',
+    defaultMessage: 'Change your content:',
   },
   stateManagementMessages: {
     id: `${scope}.state_management.message`,
-    defaultMessage: `
-      Unidirectional data flow allows for change logging and time travel
-    debugging.
+    defaultMessage: `Content can be modified and updated with one's own convience
     `,
   },
   javascriptHeader: {
     id: `${scope}.javascript.header`,
-    defaultMessage: 'Next generation JavaScript',
+    defaultMessage: 'Create your own Advertisements:',
   },
   javascriptMessage: {
     id: `${scope}.javascript.message`,
-    defaultMessage: `Use template strings, object destructuring, arrow functions, JSX
-    syntax and more, today.`,
+    defaultMessage: `Users can make their own advertisements and customise it by using our creative templates`,
   },
   cssHeader: {
     id: `${scope}.css.header`,
