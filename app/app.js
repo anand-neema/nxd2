@@ -7,7 +7,7 @@
 
 // Needed for redux-saga es6 generator support
 import '@babel/polyfill';
-
+import 'bootstrap/dist/css/bootstrap.css';
 // Import all the third party stuff
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -16,7 +16,7 @@ import { ConnectedRouter } from 'connected-react-router/immutable';
 import FontFaceObserver from 'fontfaceobserver';
 import history from 'utils/history';
 import 'sanitize.css/sanitize.css';
-
+// import { Button } from 'reactstrap';
 // Import root app
 import App from 'containers/App';
 

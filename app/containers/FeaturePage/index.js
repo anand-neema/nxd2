@@ -24,10 +24,10 @@ export default class FeaturePage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Feature Page</title>
+          <title>Features of Product</title>
           <meta
             name="description"
-            content="Feature page of React.js Boilerplate application"
+            content="Features page of nxd2 application"
           />
         </Helmet>
         <H1>
